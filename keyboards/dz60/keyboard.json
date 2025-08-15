@@ -1,4 +1,7 @@
 {
+    "dynamic_keymap": {
+      "layer_count": 5
+    },
     "keyboard_name": "DZ60",
     "manufacturer": "KBDFans",
     "maintainer": "qmk",
@@ -9,9 +12,9 @@
     },
     "features": {
         "backlight": true,
-        "bootmagic": true,
-        "extrakey": true,
-        "mousekey": true,
+        "bootmagic": false,
+        "extrakey": false,
+        "mousekey": false,
         "nkro": true,
         "rgblight": true
     },
